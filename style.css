@@ -1,9 +1,9 @@
 :root {
   --light-dark-background: #1f2021;
-  --primary-color: #518242;
-  --secondary-color: #C1F0A4;
-  --tertiary-color: #072100;
-  --pale-color: #D9E7CB;
+  --primary-color: #425582;
+  --secondary-color: #a4b6f0;
+  --tertiary-color: #000221;
+  --pale-color: #cbd3e7;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
@@ -25,7 +25,6 @@ html {
 p {
   color: var(--light-text);
   font-size: 19px;
-  line-height: 25px;
 }
 /* TRANSITION */
 
@@ -309,6 +308,13 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+
+.text-container{
+  background-color: var(--pale-color);
+  padding: 2rem;
+  border-radius: 2rem;
+  font-weight: 400;
 }
 
 .details-container {
