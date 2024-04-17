@@ -267,7 +267,7 @@ section {
 .btn-color-2 {
   background: none;
   background-color: var(--tertiary-color);
-  color: var(--secondary-color);
+  color: var(--pale-color);
 }
 
 .btn-color-2:hover {
