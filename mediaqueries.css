@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 60vh;
+    height: auto;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -44,6 +44,16 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #about-me{
+    margin-bottom: 1.5rem;
   }
 }
 
