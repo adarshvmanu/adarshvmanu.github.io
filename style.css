@@ -19,6 +19,14 @@ body {
   background-color: var(--secondary-color);
 }
 
+body.dark{
+  --light-dark-background: #1f2021;
+  --primary-color: #425582;
+  --secondary-color: #000221;
+  --tertiary-color: #a4b6f0;
+  --pale-color: #1f2021;
+}
+
 html {
   scroll-behavior: smooth;
 }
